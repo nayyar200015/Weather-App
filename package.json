@@ -1,0 +1,14 @@
+{
+  "name": "weatherwebsite",
+  "version": "1.0.0",
+  "description": "Creating a Weather nodejs app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nayyar Abbas",
+  "license": "ISC",
+  "dependencies": {
+    "requests": "^0.3.0"
+  }
+}
