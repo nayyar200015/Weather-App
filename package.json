@@ -4,11 +4,15 @@
   "description": "Creating a Weather nodejs app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon index.js"
   },
   "author": "Nayyar Abbas",
   "license": "ISC",
   "dependencies": {
     "requests": "^0.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
