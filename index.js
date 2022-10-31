@@ -39,4 +39,4 @@ const server = http.createServer((req, res) => {
 });
 
 //* Listening the server at port 8000. 127.0.0.1 is the localhost
-server.listen(8000, '127.0.0.1');
+server.listen(process.env.port);
