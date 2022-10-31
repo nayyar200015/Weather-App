@@ -39,4 +39,7 @@ const server = http.createServer((req, res) => {
 });
 
 //* Listening the server at port 8000. 127.0.0.1 is the localhost
-server.listen(process.env.port);
+// server.listen(8000,'127.0.0.1');
+// server.listen(8000);
+//* This command is for heroku/ deployment  
+server.listen(process.env.PORT);
