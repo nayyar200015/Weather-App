@@ -42,4 +42,4 @@ const server = http.createServer((req, res) => {
 // server.listen(8000,'127.0.0.1');
 // server.listen(8000);
 //* This command is for heroku/ deployment  
-server.listen(process.env.PORT);
+server.listen(process.env.PORT || 8000);
